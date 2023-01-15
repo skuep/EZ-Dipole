@@ -52,7 +52,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -247,7 +247,7 @@
     (uuid d385ebb9-fe43-4fe3-ae5a-b83665559f7f)
     (property "Reference" "J1" (id 0) (at 99.06 80.9626 0))
     (property "Value" "Conn_Coaxial" (id 1) (at 101.6 80.9626 0))
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" (id 2) (at 106.68 81.28 0)
+    (property "Footprint" "ez-dipole:SMA_Amphenol_132289_EdgeMount" (id 2) (at 106.68 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 106.68 81.28 0)
@@ -290,7 +290,7 @@
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/d385ebb9-fe43-4fe3-ae5a-b83665559f7f"
-      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
+      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "ez-dipole:SMA_Amphenol_132289_EdgeMount")
     )
     (path "/c67cf94f-d750-45b8-b736-ef5a3f3d0d84"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "ez-dipole:Slot")
