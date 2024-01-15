@@ -22,7 +22,7 @@ Secondly, the quality of the 180 degree phase shift at the output of the balun i
 Length (End-to-End) for a (spring steel) wire with 2mm diameter
 - According to simulation 976mm and 2x316mm
 - With a bit of trying out, I selected 980mm and 2x316mm so very close to simulation
-- 
+
 You can either start with 990mm and 320mm and try optimizing yourself (if you have a VNA) or just select those values and call it good enough.
 
 ## Balun
