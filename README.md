@@ -18,6 +18,12 @@ Firstly, I was curious what the performance would be. But along the way I found 
 For example, the dipole bars are grounded. This means, you can connect a lightning arresting connection from the PCB ground plane directly to the ground of your house. The SMA connector center pin is floating (and on the opposite side of the PCB), so this can potentially give your radio a lot of protection from the environment if we add a TVS protection circuit.
 Secondly, the quality of the 180 degree phase shift at the output of the balun is very good, so there is virtually no issue with currents running on the outer sheath of the coaxial cable back to the radio and radiate uncontrollably.
 
+## Dual-Band Dipole
+Length (End-to-End) for a (spring steel) wire with 2mm diameter
+- According to simulation 976mm and 2x316mm
+- With a bit of trying out, I selected 980mm and 2x316mm so very close to simulation
+You can either start with 990mm and 320mm and try optimizing yourself (if you have a VNA) or just select those values and call it good enough.
+
 ## Balun
 See input side, output side and rear mount here:
 
