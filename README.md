@@ -23,7 +23,7 @@ Length (End-to-End) for a (spring steel) wire with 2mm diameter
 - According to simulation 976mm and 2x316mm
 - With a bit of trying out, I selected 980mm and 2x316mm so very close to simulation
 
-You can either start with 990mm and 320mm and try optimizing yourself (if you have a VNA) or just select those values and call it good enough.
+You can either start with 990mm and 320mm and try optimizing yourself by cutting tiny strips off (if you have a VNA). Or just select my values and call it good enough.
 
 ## Balun
 See input side, output side and rear mount here:
